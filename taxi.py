@@ -19,7 +19,7 @@ choice_pickup_borough = st.selectbox(  "Enter your pickup area :",
 st.write(f'You are choosen : {choice_pickup_borough}')
 
 # AFFICHAGE DE L'IMAGE
-st.image(f'https://raw.githubusercontent.com/username/share.streamlit/main/img/{choice_pickup_borough}.png',
+st.image(f'https://raw.githubusercontent.com/Phil-BENISSAN/share.streamlit/main/img/{choice_pickup_borough}.png',
          use_column_width=True,
          )
 
